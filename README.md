@@ -11,7 +11,10 @@ System Requirements: at least ArcMap 10.4. While ArcMap 10.7 is fully tested
 git clone https://github.com/WhereGroup/mapqonverter.git
 
 # Download Python package comtypes
+#method A
 pip install comtypes==1.1.7
+#method B
+"C:\Python27\ArcGIS10.8\python.exe" -m easy_install "comtypes==1.1.7"
 
 ```
 > :warning: If you have more than one python version on your pc, be sure to install comtypes to the python version used by ArcMap - for example: C:\Python27\ArcGIS10.7
